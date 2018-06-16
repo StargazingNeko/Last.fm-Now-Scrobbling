@@ -1,12 +1,15 @@
-﻿<Window x:Class="Last.fm_Now_Playing.MainWindow"
+﻿<Window x:Class="Last.fm_Currently_Scrobbling.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Last.fm_Now_Playing"
+        xmlns:local="clr-namespace:Last.fm_Currently_Scrobbling"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Last.fm - Currently Scrobbling" Height="180" Width="500" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" MaxWidth="500" MaxHeight="180" UseLayoutRounding="False" Background="White">
+    <Grid Background="#FF9B9B9B">
+        <Image x:Name="AlbumImage" HorizontalAlignment="Left" Height="120" Width="120" Margin="10,10,0,0" VerticalAlignment="Top" Source="https://image.freepik.com/free-icon/musical-note-symbol_318-32225.jpg"/>
+        <Label x:Name="ArtistLabel" Content="Artist" HorizontalAlignment="Left" Margin="140,30,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" FontStyle="Italic"/>
+        <Label x:Name="AlbumLabel" Content="Album" HorizontalAlignment="Left" Margin="140,50,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="SongLabel" Content="Song" HorizontalAlignment="Left" Margin="140,70,0,0" VerticalAlignment="Top" FontSize="16"/>
     </Grid>
 </Window>

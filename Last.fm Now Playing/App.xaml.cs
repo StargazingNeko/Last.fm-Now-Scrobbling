@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Last.fm_Now_Playing
+namespace Last.fm_Currently_Scrobbling
 {
     /// <summary>
     /// Interaction logic for App.xaml

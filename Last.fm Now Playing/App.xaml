@@ -1,7 +1,7 @@
-﻿<Application x:Class="Last.fm_Now_Playing.App"
+﻿<Application x:Class="Last.fm_Currently_Scrobbling.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Last.fm_Now_Playing"
+             xmlns:local="clr-namespace:Last.fm_Currently_Scrobbling"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
