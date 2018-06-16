@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Last.fm Currently Scrobbling", "Last.fm Now Playing\Last.fm Currently Scrobbling.csproj", "{768C9A92-8740-48A2-98E2-DA7960BE9841}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Last.fm Currently Scrobbling", "Last.fm Currently Scrobbling\Last.fm Currently Scrobbling.csproj", "{768C9A92-8740-48A2-98E2-DA7960BE9841}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6E02C07-C6DA-4FB3-9295-44D0BBD7044C}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Last.fm - Currently Scrobbling" Height="180" Width="500" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" MaxWidth="500" MaxHeight="180" UseLayoutRounding="False" Background="White">
     <Grid Background="#FF9B9B9B">
-        <Image x:Name="AlbumImage" HorizontalAlignment="Left" Height="120" Width="120" Margin="10,10,0,0" VerticalAlignment="Top" Source="https://image.freepik.com/free-icon/musical-note-symbol_318-32225.jpg"/>
+        <Image x:Name="AlbumImage" HorizontalAlignment="Left" Height="120" Width="120" Margin="10,10,0,0" VerticalAlignment="Top" Source="temp.jpg"/>
         <Label x:Name="ArtistLabel" Content="Artist" HorizontalAlignment="Left" Margin="140,30,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" FontStyle="Italic"/>
         <Label x:Name="AlbumLabel" Content="Album" HorizontalAlignment="Left" Margin="140,50,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label x:Name="SongLabel" Content="Song" HorizontalAlignment="Left" Margin="140,70,0,0" VerticalAlignment="Top" FontSize="16"/>
